@@ -48,6 +48,20 @@ namespace LuckyFinalExam
                 luckyNode.ChildNodes.Item(0).InnerText = "多吉";
             }
 
+            else if (name == "李童茜")
+            {
+                luckyNode.RemoveAll();
+                for(var i=0; i<4; i++)
+                {
+                    var newElement = xmlDoc.CreateElement("express");
+                    luckyNode.AppendChild(newElement);
+                }
+                luckyNode.ChildNodes.Item(0).InnerText = "爆棚";
+                luckyNode.ChildNodes.Item(1).InnerText = "都说漂亮的女孩子运气不会太差";
+                luckyNode.ChildNodes.Item(2).InnerText = "何况是最漂亮的"+name+"呢";
+                luckyNode.ChildNodes.Item(3).InnerText = "——哲学家呆似萌";
+            }
+
             var initImage = System.Drawing.Image.FromFile("C:/DrawMyLuck/BigLuck.png");
             resultGraphic = Graphics.FromImage(initImage);
             drawLuckLevel();
