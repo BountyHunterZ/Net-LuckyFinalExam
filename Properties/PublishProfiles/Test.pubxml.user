@@ -6,17 +6,17 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\zhongdian\Desktop\Relase</_PublishTargetUrl>
+    <_PublishTargetUrl>ftp://59.110.0.244/LuckyFinalExam</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/LuckyFinalExam.dll">
-      <publishTime>12/22/2016 21:56:04</publishTime>
+      <publishTime>12/22/2016 23:46:47</publishTime>
     </File>
     <File Include="drawMyLuck.aspx">
       <publishTime>12/22/2016 18:34:32</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/22/2016 21:56:04</publishTime>
+      <publishTime>12/22/2016 23:46:57</publishTime>
     </File>
   </ItemGroup>
 </Project>
