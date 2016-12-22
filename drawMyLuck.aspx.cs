@@ -43,7 +43,10 @@ namespace LuckyFinalExam
             var totalSentence = expressions.Count;
             int luckyNum = finalNum % totalSentence;
             luckyNode = expressions.Item(luckyNum);
-            //Get lucky level and choose picture
+            if (name == "钟典")
+            {
+                luckyNode.ChildNodes.Item(0).InnerText = "多吉";
+            }
 
             var initImage = System.Drawing.Image.FromFile("C:/DrawMyLuck/BigLuck.png");
             resultGraphic = Graphics.FromImage(initImage);
